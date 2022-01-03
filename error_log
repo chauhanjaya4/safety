@@ -1,0 +1,42 @@
+[23-Sep-2019 00:22:31 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tatapigm/public_html/safety/libs/mailer/php_mailer/class.smtp.php:234) in /home/tatapigm/public_html/safety/helpers/user-auth.php on line 5
+[23-Oct-2019 09:46:33 Asia/Calcutta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p_no' in 'where clause' in /home/tatapigm/public_html/safety/classes/Crud.php:58
+Stack trace:
+#0 /home/tatapigm/public_html/safety/classes/Crud.php(58): PDOStatement->execute()
+#1 /home/tatapigm/public_html/safety/ajax.php(49): Crud->select('login_master', Array)
+#2 {main}
+  thrown in /home/tatapigm/public_html/safety/classes/Crud.php on line 58
+[23-Oct-2019 09:47:18 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tatapigm/public_html/safety/user_data.php:38) in /home/tatapigm/public_html/safety/user_data.php on line 60
+[24-Oct-2019 12:38:37 Asia/Calcutta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p_no' in 'where clause' in /home/tatapigm/public_html/safety/classes/Crud.php:58
+Stack trace:
+#0 /home/tatapigm/public_html/safety/classes/Crud.php(58): PDOStatement->execute()
+#1 /home/tatapigm/public_html/safety/ajax.php(49): Crud->select('login_master', Array)
+#2 {main}
+  thrown in /home/tatapigm/public_html/safety/classes/Crud.php on line 58
+[24-Oct-2019 12:38:58 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tatapigm/public_html/safety/user_data.php:38) in /home/tatapigm/public_html/safety/user_data.php on line 60
+[24-Oct-2019 12:40:57 Asia/Calcutta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p_no' in 'where clause' in /home/tatapigm/public_html/safety/classes/Crud.php:58
+Stack trace:
+#0 /home/tatapigm/public_html/safety/classes/Crud.php(58): PDOStatement->execute()
+#1 /home/tatapigm/public_html/safety/ajax.php(49): Crud->select('login_master', Array)
+#2 {main}
+  thrown in /home/tatapigm/public_html/safety/classes/Crud.php on line 58
+[24-Oct-2019 12:41:20 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tatapigm/public_html/safety/user_data.php:38) in /home/tatapigm/public_html/safety/user_data.php on line 60
+[14-Nov-2019 15:30:27 Asia/Calcutta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tatapigm_safety.users' doesn't exist in /home/tatapigm/public_html/safety/classes/Crud.php:58
+Stack trace:
+#0 /home/tatapigm/public_html/safety/classes/Crud.php(58): PDOStatement->execute()
+#1 /home/tatapigm/public_html/safety/ajax.php(49): Crud->select('users', Array)
+#2 {main}
+  thrown in /home/tatapigm/public_html/safety/classes/Crud.php on line 58
+[20-Nov-2019 14:01:47 Asia/Calcutta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tatapigm_safety.users' doesn't exist in /home/tatapigm/public_html/safety/classes/Crud.php:58
+Stack trace:
+#0 /home/tatapigm/public_html/safety/classes/Crud.php(58): PDOStatement->execute()
+#1 /home/tatapigm/public_html/safety/ajax.php(49): Crud->select('users', Array)
+#2 {main}
+  thrown in /home/tatapigm/public_html/safety/classes/Crud.php on line 58
+[23-Jan-2020 12:35:56 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tatapigm/public_html/safety/user_data.php:38) in /home/tatapigm/public_html/safety/user_data.php on line 60
+[27-Jan-2020 14:47:16 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tatapigm/public_html/safety/user_data.php:38) in /home/tatapigm/public_html/safety/user_data.php on line 60
+[27-Jan-2020 14:57:53 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tatapigm/public_html/safety/user_data.php:38) in /home/tatapigm/public_html/safety/user_data.php on line 60
+[27-Jan-2020 14:59:48 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tatapigm/public_html/safety/user_data.php:38) in /home/tatapigm/public_html/safety/user_data.php on line 60
+[27-Jan-2020 17:03:46 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home/tatapigm/public_html/safety/ajax_dic_report.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/tatapigm/public_html/safety/ajax_dic_report.php on line 75
